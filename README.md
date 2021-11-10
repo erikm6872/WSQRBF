@@ -20,7 +20,7 @@ executes blindly without sanitation of any kind.
 
 * This means that the behavior of a given instruction can change without warning,
 _even in the middle of execution_. Implementations of the API are encouraged
-to remain strictly closed source and completely undocumented.
+to remain closed source and completely undocumented.
 
     - Also note that because of the considerable security risks involved, use 
     of HTTPS or any other protocol that supports encryption is strictly 
