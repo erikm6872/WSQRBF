@@ -52,7 +52,7 @@ and cannot be reused as the GUID will not be unique.
 
 ### Example source
 
-[Gaze upon this Hello World and despair](helloworld.wsqrbf)
+[Gaze upon this Hello World and despair](https://raw.githubusercontent.com/erikm6872/WSQRBF/master/helloworld.wsqrbf)
 
 ### API Behavior
 
