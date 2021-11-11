@@ -10,8 +10,7 @@ However, there are several notable differences:
 
 * Instructions consist of a URL and a GUID embedded in a QR code 
 image, which is then encoded in Base64. For this reason, WSQRBF source files
-are _not_ human readable in any capacity and are more than [~~29 million~~][^1] 225,000 times larger than an 
-equivalent brainfuck source.
+are _not_ human readable in any capacity and are more than [~~29 million~~][^1] 225,000 times larger than an equivalent brainfuck source.
 
 * For every instruction, the interpreter must query the API endpoint specified
 by the embedded URL to determine the instruction's behavior. The response 
@@ -22,9 +21,14 @@ executes blindly without sanitation of any kind.
 _even in the middle of execution_. Implementations of the API are encouraged
 to remain closed source and completely undocumented.
 
-    - Also note that because of the considerable security risks involved, use 
+    - Because of the considerable security risks involved, use 
     of HTTPS or any other protocol that supports encryption is strictly 
     prohibited.
+    
+    - Also note that a WSQRBF interpreter's performance is directly impacted
+    by the quality of the network connection between the client and server. For 
+    this reason, the API responses are in the SOAP format to maximize the amount of
+    useless data being transferred with every call.
 
 ### Source Files
 
@@ -48,7 +52,7 @@ and cannot be reused as the GUID will not be unique.
 
 ### Example source
 
-[Look upon this Hello World and despair](helloworld.wsqrbf)
+[Gaze upon this Hello World and despair](helloworld.wsqrbf)
 
 ### API Behavior
 
