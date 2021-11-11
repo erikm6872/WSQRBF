@@ -44,8 +44,7 @@ file extension. The procedure for writing a WSQRBF program is as follows:
 3. Encode the PNG bytes as a Base64 string. This string represents exactly one instruction
 and cannot be reused as the GUID will not be unique.
 
-4. Repeat for every instruction in the program. Instruction strings are separated by the 
-`§` character (U+00A7).
+4. Repeat for every instruction in the program. Instruction strings are separated by the `~` character.
 
 ### Example source
 
