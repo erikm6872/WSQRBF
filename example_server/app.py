@@ -59,3 +59,7 @@ def jump_back():
     return """&jb
 if self.cells[self.cellptr] != 0:\n
 \tself.codeptr = self.bracemap[self.codeptr]"""
+
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000, debug=True)  # Expose to the network and enable debug mode for security
