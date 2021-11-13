@@ -52,7 +52,9 @@ and cannot be reused as the GUID will not be unique.
 
 ### Example source
 
-[Gaze upon this Hello World and despair](https://raw.githubusercontent.com/erikm6872/WSQRBF/master/samples/helloworld.wsqrbf)
+* [Gaze upon this Hello World and despair](https://raw.githubusercontent.com/erikm6872/WSQRBF/master/samples/helloworld.wsqrbf)
+
+* [And a 1.28 MB Fibonacci that only calculates to 100, why not](https://raw.githubusercontent.com/erikm6872/WSQRBF/master/samples/fibonacci.wsqrbf)
 
 ### API Behavior
 
