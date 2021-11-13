@@ -99,7 +99,7 @@ def encode_instruction(url):
 
 def encode_bf(bf):
     """encode brainfuck code to WSQRBF"""
-    # These are the API endpoints for a flask server running on my localhost. Replace them with your server's URLs.
+    # These are the API endpoints for the example server running on localhost. Replace them with your server's URLs.
     cmds = {
         '>': 'http://127.0.0.1:5000/ip',
         '<': 'http://127.0.0.1:5000/dp',
