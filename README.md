@@ -52,16 +52,29 @@ and cannot be reused as the GUID will not be unique.
 
 ### Example source
 
-[Gaze upon this Hello World and despair](https://raw.githubusercontent.com/erikm6872/WSQRBF/master/helloworld.wsqrbf)
+[Gaze upon this Hello World and despair](https://raw.githubusercontent.com/erikm6872/WSQRBF/master/samples/helloworld.wsqrbf)
 
 ### API Behavior
 
 TODO
 
 ### Interpreter/Client
-Usage: `./wsqrbf_client.py [FILE]`
 
-Note that this interpreter is not currently functional in any capacity.
+TODO
+
+#### Requirements
+
+* Python 3.8
+
+* Run `pip -r requirements.txt` or
+
+```
+pip install pyqrcode
+pip install pyzbar
+pip install pillow
+pip install requests
+```
+
 
 ### Footnotes
 [^1]: I initially calculated the file size incorrectly assuming that the QR

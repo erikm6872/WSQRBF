@@ -1,6 +1,3 @@
-
-
-import sys
 import uuid
 
 
@@ -16,3 +13,6 @@ class StoredQRData:
         if self.url == other.url and self.guid == other.guid:
             return True
         return False
+
+    def __repr__(self):
+        return "URL: " + self.url + " GUID: " + self.guid
